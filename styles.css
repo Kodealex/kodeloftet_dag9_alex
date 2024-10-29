@@ -41,6 +41,10 @@ main {
   display:flex;
 }
 
+.backgroundFeature{
+  background-image: url("");
+}
+
 /* FOOTER */
 footer {
   display: flex;
