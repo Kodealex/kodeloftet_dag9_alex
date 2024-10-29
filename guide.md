@@ -23,7 +23,7 @@ Section flex flex direction row
     h1 og p til venstre
   img til høyre
 
-Section
+Section = flex flex direction row
   img til venstre
-  div
+  div ? flex flex direction column
     h1 og p til høyre.
