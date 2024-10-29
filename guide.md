@@ -15,4 +15,15 @@
 # Prosjekt guide
 - Artikkel stil med fokus tekst og bilder
 - Semantiske løsninger for tekst og bilde element.
-- Plasserings løsninger for tekst og bilde element.  
+- Plasserings løsninger for tekst og bilde element. 
+
+Main
+Section flex flex direction row
+  div flex flex direction column
+    h1 og p til venstre
+  img til høyre
+
+Section
+  img til venstre
+  div
+    h1 og p til høyre.
