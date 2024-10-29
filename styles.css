@@ -36,6 +36,11 @@ main {
   height: 100vh;
 }
 
+.section
+{
+  display:flex;
+}
+
 /* FOOTER */
 footer {
   display: flex;
