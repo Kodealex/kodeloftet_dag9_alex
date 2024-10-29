@@ -42,7 +42,9 @@ main {
 }
 
 .backgroundFeature{
-  background-image: url("");
+  background-image: url("https://plus.unsplash.com/premium_vector-1729788023709-af146d38a15c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxpbGx1c3RyYXRpb25zLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  
 }
 
 /* FOOTER */
