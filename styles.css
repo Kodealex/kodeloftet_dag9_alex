@@ -47,6 +47,11 @@ main {
   
 }
 
+/* placeholder value - skal bli slettet senere */
+img
+{
+  width:50%;
+}
 /* FOOTER */
 footer {
   display: flex;
