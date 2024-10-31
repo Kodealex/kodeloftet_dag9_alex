@@ -25,13 +25,10 @@ header {
 
 .Logomenu
 {
-  display: flex;
+  display: none;
 }
 
-.Visiblemenu{
-display:none;
-}
-.headerLogo:hover + .Visiblemenu
+.headerLogo:hover + .Logomenu
 {
 
   display:block;
