@@ -6,37 +6,62 @@ body {
   /* property:value; is a CSS Rule */
   background-color: #fdfdfd;
   color: #0d0d0d;
-  font-family: "Shadows Into Light";
+}
+
+p{
+  font-family: "Shadows Into Light";  
 }
 
 /* HEADER */
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items:center; 
   padding: 8px 0;
 }
 
-.headerLogo {
-  padding: 8px;
-  border: 2px solid black;
-  border-radius: 50%;
+/* unvisited link */
+a:link {
+  color: rgb(10, 16, 10);
 }
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+a:hover
+{
+  color:rgb(94, 94, 245);
+}
+
+
 
 .Logomenu
 {
   display: none;
 }
 
-.headerLogo:hover + .Logomenu
+/* .headerLogo:hover + .Logomenu 
 {
+  
+}
+*/
 
-  display:block;
+.headerLogo {
+  padding: 8px; 
+  border: 2px solid black;
+  border-radius: 50%;
 }
 
 ul {
   display: flex;
-  justify-content: end;
+  justify-content:end; 
   gap: 15px;
   list-style-type: none;
   margin: 0;
@@ -78,6 +103,18 @@ align-items: center;
 img
 {
   max-width:300px;
+}
+
+.Kreditering
+{
+  display:none;
+}
+
+img:hover + .Kreditering
+{
+  display:block;
+  background-color: rgb(49, 162, 248);
+
 }
 
 /* FOOTER */
